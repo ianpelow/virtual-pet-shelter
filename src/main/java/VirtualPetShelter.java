@@ -36,7 +36,16 @@ public class VirtualPetShelter {
 		getAPet(petName).playWithPet();
 	}
 		
+	public void allPetTick() {
+		for(VirtualPet pet: pets.values()) {
+			pet.singleTick();
+		}
+		
+	
 
+
+		
+	}
 		
 	
 
