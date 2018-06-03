@@ -11,8 +11,8 @@ public class VirtualPetShelterTest {
 	
 	
 	
-	public Collection<VirtualPet> getPetsShouldReturnAllPets() {
-		testAnimalShelter.addPet(new VirtualPet("Maulik", "cat", 60, 60, 60));
+	public void getPetsShouldReturnAllPets() {
+		testAnimalShelter.addPet(new VirtualPet("Name", "pet", 60, 60, 60));
 		Collection underTest = testAnimalShelter.getPets();
 		Assert.assertEquals("Maulik", underTest);
 		

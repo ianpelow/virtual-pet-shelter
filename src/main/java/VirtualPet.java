@@ -51,17 +51,17 @@ public class VirtualPet {
 			}
 			
 			public int waterPet() {
-				thirst -= amount;
+				thirst += amount;
 				return thirst;
 			}
 			
 			public int feedPet() {
-				hunger -= amount;
+				hunger += amount;
 				return hunger;
 			}
 			
 			public int playWithPet() {
-				boredom -= amount;
+				boredom += amount;
 				return boredom;
 			}
 			
@@ -75,9 +75,9 @@ public class VirtualPet {
 			}
 			
 			public void singleTick() {
-				hunger += 2;
-				thirst += 2;
-				boredom += 2;
+				hunger -= 2;
+				thirst -= 2;
+				boredom -= 2;
 			}
 			
 }
