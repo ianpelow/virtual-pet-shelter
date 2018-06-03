@@ -24,13 +24,14 @@ public class VirtualPetShelterApp {
 		System.out.println();
 		System.out.println("Welcome to Donny's Virtual Pet Shelter!");
 		System.out.println("\nThis is the status of our pets: ");
-		System.out.println("  Name  || Hunger | Thirst | Boredom |                   Description                 ||");
-		System.out.println("********|*********|********|*********|***********************************************||");
-		System.out.println(" Shadow |    60   |   40   |    50   |  Intelligent/well-mannered - Golden Retriever ||");
-		System.out.println("Chance  |    50   |   50   |    40   |      Young/energetic - American Bulldog       ||");
-		System.out.println(" Sassy  |    40   |   60   |    60   |           Savvy diva - Himalayan              ||");
+//		System.out.println("  Name  || Hunger | Thirst | Boredom |                   Description                 ||");
+//		System.out.println("********|*********|********|*********|***********************************************||");
+//		System.out.println(" Shadow |    60   |   40   |    50   |  Intelligent/well-mannered - Golden Retriever ||");
+//		System.out.println("Chance  |    50   |   50   |    40   |      Young/energetic - American Bulldog       ||");
+//		System.out.println(" Sassy  |    40   |   60   |    60   |           Savvy diva - Himalayan              ||");
 
 		while (continueWithApp = true) {
+			virtualPetShelter.displayStatus();
 			System.out.println("What would you like to do?");
 			System.out.println("1 = feed / 2 = give water / 3 = play with a pet / 4 = adopt / 5 = surrender / 6 = Leave shelter");
 			System.out.println();

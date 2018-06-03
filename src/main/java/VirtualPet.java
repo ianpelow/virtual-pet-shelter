@@ -80,6 +80,10 @@ public class VirtualPet {
 				boredom -= 2;
 			}
 			
+				public void getStatus () {
+					System.out.println(petName + " - " + description + " / Hunger: " +  hunger + " / Thirst " + thirst + " / Boredom: " + boredom);
+			}
+			
 }
 			
 			
