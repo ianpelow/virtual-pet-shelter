@@ -16,9 +16,13 @@ public class VirtualPetShelter {
 	public void addPet(VirtualPet pet) {
 		pets.put(pet.getPetName(), pet );
 	}
+	
+	public void addNewPet(String newPetName ) {
+		addNewPet(newPetName);
+	}
 		
-	public void adoptPet(VirtualPet pet) {
-		pets.remove(pet.getPetName(), pet);
+	public void adoptPet(String petName) {
+		pets.remove(petName);
 	}
 		
 	public void feedPets () {
