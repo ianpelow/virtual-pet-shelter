@@ -1,3 +1,4 @@
+import org.hamcrest.Matcher;
 
 public class VirtualPet {
 
@@ -8,6 +9,7 @@ public class VirtualPet {
 	private int thirst;
 	private int boredom;
 	private int amount = 10;
+	
 	
 		public String getPetName() {
 			return petName;
